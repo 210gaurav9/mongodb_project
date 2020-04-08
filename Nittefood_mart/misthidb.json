@@ -1,0 +1,99 @@
+{
+  "admin": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "nittefood_mart@gmail.com",
+      "password": "nitte@123"
+    }
+  ],
+  "categories": [
+    {
+      "id": "7",
+      "name": "North Indian",
+      "short_desc": "This is a popular category in Northern India",
+      "long_desc": "Indian cuisine encompasses a wide variety of regional cuisine native to India. Given the range of diversity in soil type, climate and occupations, these cuisines vary significantly from each other and use locally available chocolates, herbs, vegetables and fruits. The dishes are then served according to taste in either mild, medium or hot. Indian food is also heavily influenced by religious and cultural choices, like Hinduism and traditions."
+    },
+    {
+      "id": "8",
+      "name": "Chinese",
+      "short_desc": "Chinese cuisine is an important part of Chinese culture, which includes cuisine originating from the diverse regions of China.",
+      "long_desc": "A number of different styles contribute to Chinese cuisine but perhaps the best known and most influential are Cantonese cuisine, Shandong cuisine, Jiangsu cuisine (specifically Huaiyang cuisine) and Sichuan cuisine."
+    },
+    {
+      "id": "9",
+      "name": "South Indian",
+      "short_desc": "South Indian cuisine includes the cuisines of the five southern states of India Andhra Pradesh, Karnataka, Kerala, Tamil Nadu and Telangana.",
+      "long_desc": "The cuisines of Andhra Pradesh are the spiciest in all of India. Generous use of chili and tamarind make the dishes tangy and hot. The majority of dishes are vegetable or lentil-based."
+    },
+    {
+      "id": "10",
+      "name": "Snacks",
+      "short_desc": " A snack is a small portion of food eaten between meals.",
+      "long_desc": "A snack is a small portion of food eaten between meals. This may be a snack food, such as potato chips or baby carrots, but can also simply be a small amount of any food."
+    },
+    {
+      "id": "11",
+      "name": "Himalayan Food",
+      "short_desc": "Nepalese cuisine comprises a variety of cuisines based upon ethnicity, soil and climate relating to Nepal cultural diversity and geography.",
+      "long_desc": "Much of the cuisine is variation on Asian themes. Other foods have hybrid Tibetan, Indian and Thai origins. They were originally filled with buffalo meat but now also with goat or chicken, as well as vegetarian preparations. Special foods such as sel roti, finni roti and patre are eaten during festivals such as Tihar."
+    }
+  ],
+  "food": [
+    {
+      "id": "1",
+      "cat_id": "9",
+      "fname": "Dosa",
+      "description": "I love Dosa very much. Its a South Indian Food and Everybody loves it!"
+    },
+    {
+      "id": "7",
+      "cat_id": "7",
+      "fname": "Egg Role",
+      "description": "This is a North Indian Pop Food. Everybody likes it so damn very much."
+    },
+    {
+      "id": "8",
+      "cat_id": "8",
+      "fname": "Chowmin",
+      "description": "This is a Chinese Pop Food. Everybody likes it so damn very much."
+    },
+    {
+      "id": "9",
+      "cat_id": "10",
+      "fname": "French Fries",
+      "description": "This is a Snacks Food. Everybody likes it so damn very much with Tea or Coffee."
+    },
+    {
+      "id": "10",
+      "cat_id": "11",
+      "fname": "Momos",
+      "description": "This is a Himalayan Pop Food. Everybody likes it so damn very much. Its comes with different flavors!"
+    },
+    {
+      "id": "11",
+      "cat_id": "8",
+      "fname": "Hakka Noodles",
+      "description": "This food is so much popular even in India. It tastes like Chowmein but with Gravy. "
+    }
+  ],
+  "orders": [
+    {
+      "id": "3",
+      "order_id": "RSTGF384345",
+      "user_id": "3",
+      "food_id": "1",
+      "user_name": "Pawan",
+      "timestamp": "06:04:2020 12:02:06am"
+    }
+  ],
+  "users": [
+    {
+      "id": "3",
+      "name": "Pawan Kumar",
+      "email": "prempawan98@gmail.com",
+      "password": "Pawan@12345",
+      "timestamp": "06:08:2019 01:40:08am"
+    }
+  ]
+}
